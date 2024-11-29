@@ -1,0 +1,85 @@
+body {
+    background-color: #040728 ;
+    color: beige;
+}
+.home-principal{
+    margin:30px;
+
+}
+.home-sections {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end; 
+    margin-right: 80px ;
+}
+
+.home{
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+}
+.principal{
+    margin: 10px;
+    background-color: #040728;
+    color: white;
+    border: #040728;
+    font-size: 15px;
+    font-family: "Jost", sans-serif;
+}
+.name{
+    font-family: "Jost", sans-serif;
+    font-weight: normal;
+    margin-bottom: 0px;
+}
+.pp{
+    font-family: "Itim", cursive;
+    font-size: 50px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    color: #42A9F3;
+}
+
+.key-word{
+    font-family: "Jost", sans-serif;
+    font-weight: normal;
+    font-size: 18px;
+    margin-top: 0px;
+}
+.container-image {
+    position: relative;
+    display: inline-block;
+}
+
+.container{
+    margin-right: 50px;
+}
+  
+.image {
+    width: 200px; 
+    height: auto; 
+    border-radius: 300px 450px 200px 350px; 
+    border: 7px solid #42A9F3; 
+}
+
+.resume{
+    background-color: #040728;
+    border-color: #42A9F3;
+    color: #42A9F3;
+    width: 100px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+.portfolio{
+    background-color: #42A9F3;
+    border-color: #42A9F3;
+    color: white;
+    width: 100px;
+    height: 30px;
+}
+
+.education-div{
+    display: flex;
+    flex-wrap: wrap;
+}
