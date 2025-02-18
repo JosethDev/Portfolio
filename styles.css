@@ -1,16 +1,41 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
 body {
     background-color: #040728 ;
     color: beige;
 }
-.home-principal{
-    margin: 50px 30px 100px 30px ;
-
+main{
+    width: 100vw;
+    height: 100vh;
+  
 }
+
 .home-sections {
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-end; 
     margin-right: 80px ;
+    padding: 20px;
+    list-style: none;
+    text-align: center;
+}
+
+.home-sections li{
+    display: inline-block;
+    margin: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
+a{
+    color: white;
+    text-decoration: none;
+    font-family: "Jost", sans-serif;
+
 }
 
 .home{
@@ -20,14 +45,7 @@ body {
     justify-content: center;
     margin-top: 90px;
 }
-.principal{
-    margin: 10px;
-    background-color: #040728;
-    color: white;
-    border: #040728;
-    font-size: 20px;
-    font-family: "Jost", sans-serif;
-}
+
 .name{
     font-family: "Jost", sans-serif;
     font-size: 30px;
